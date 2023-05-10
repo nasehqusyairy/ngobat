@@ -1,0 +1,38 @@
+.login {
+
+  .card,
+  .btn {
+    border-radius: 15px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .row,
+  .form-wrapper,
+  .side-section {
+    min-height: 100vh;
+  }
+
+  .side-section {
+    background-image: url(../img/login.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  .side-section h4 {
+    line-height: var(--bs-body-line-height);
+  }
+
+  input.form-control {
+    &:focus {
+      box-shadow: unset;
+    }
+
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid var(--bs-dark) !important;
+  }
+}
