@@ -2,19 +2,19 @@
 import Link from "next/link";
 import pasienBaruImg from "../img/pasien-baru.png";
 import pasienLamaImg from "../img/pasien-lama.png";
-import "./../styles/home.scss";
+import "./../styles/main.scss";
 import { useState } from "react";
 
-function Home() {
+function Main() {
   const [destination, setDestination] = useState('pasien-lama');
   return (
     <main>
-      <section className="home">
+      <section className="main">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-12 col-lg-6 px-lg-5">
               <div className="text-center">
-                <h1>ngobat.com</h1>
+                <h1>KlinikNgobat</h1>
                 <p className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
               <div className="my-5">
@@ -67,4 +67,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Main;

@@ -6,6 +6,8 @@
 @import "../../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
+$primary :#1185C7;
+$secondary: #F29D1E;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../../node_modules/bootstrap/scss/variables";
@@ -66,4 +68,19 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  &.btn-primary {
+    color: $light;
+  }
+}
+
+.nav-link {
+  &.active {
+    color: $primary !important;
+  }
+
+  color: $dark;
+
 }

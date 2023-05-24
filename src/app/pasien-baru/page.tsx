@@ -30,7 +30,7 @@ function register() {
                   </div>
                 </div>
 
-                <div className="d-grid gap-2">
+                <div className="d-grid gap-2 mb-3">
                   <button className="btn btn-dark btn-lg">Ambil Antrian</button>
                   <Link href="/" className="btn btn-outline-dark btn-lg">Kembali ke Website</Link>
                 </div>
@@ -39,7 +39,7 @@ function register() {
               <p className="text-center">Sudah memiliki nomer pasien? <Link href="/pasien-lama">Pasien Lama</Link></p>
             </div>
             <div className="d-none d-lg-flex col-lg-6 side-section p-5 text-white flex-column justify-content-between">
-              <h1>ngobat.com</h1>
+              <h1>KlinikNgobat</h1>
               <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim impedit voluptate omnis
                 perferendis natus saepe labore.</h4>
               <div className="source">

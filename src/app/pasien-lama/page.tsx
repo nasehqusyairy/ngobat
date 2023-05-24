@@ -31,7 +31,7 @@ function login() {
               <p className="text-center">Belum memiliki nomer pasien? <Link href="/pasien-baru">Pasien Baru</Link></p>
             </div>
             <div className="d-none d-lg-flex col-lg-6 side-section p-5 text-white flex-column justify-content-between">
-              <h1>ngobat.com</h1>
+              <h1>KlinikNgobat</h1>
               <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim impedit voluptate omnis
                 perferendis natus saepe labore.</h4>
               <div className="source">

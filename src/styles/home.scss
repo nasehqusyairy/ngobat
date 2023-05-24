@@ -1,41 +1,26 @@
 .home {
 
-  .card,
-  .btn {
-    border-radius: 15px;
+  .tab-content {
+    p {
+      margin: 0;
+    }
   }
 
-  p {
-    margin: 0;
+  .input-group {
+
+    .form-control,
+    .input-group-text {
+      border: 0;
+    }
   }
 
-  .row {
-    min-height: 100vh;
+  .form-control {
+
+    border-color: unset;
+
+    &::placeholder {
+      color: #fff;
+    }
   }
 
-  .card:hover {
-    cursor: pointer;
-  }
-
-  .card.active {
-    border: 1px solid var(--bs-dark);
-  }
-
-  .card:not(.active) .indicator::before {
-    content: '\f28a';
-    font-family: bootstrap-icons !important;
-    color: var(--bs-card-border-color);
-  }
-
-  .card.active .indicator::before {
-    content: '\f26a';
-    font-family: bootstrap-icons !important;
-  }
-
-  .side-section {
-    background-image: url(./../img/side-section.jpeg);
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-  }
 }
