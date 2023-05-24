@@ -34,11 +34,11 @@ function Home() {
       <section className='bg-primary py-5 mt-5'>
         <div className="container">
           <div className="row align-items-center mb-5">
-            <div className="col-12 col-lg-6 text-light">
-              <h1>Kesehatan Anda Adalah Kekayaan Anda</h1>
+            <div className="col-12 col-lg-6 text-light text-center text-lg-start">
+              <h1 className='fw-bold'>Kesehatan Anda Adalah Kekayaan Anda</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorem magni, eaque quo omnis animi assumenda. Dolorem, minus consectetur inventore totam nisi, possimus placeat, quibusdam repellat temporibus explicabo sapiente quod.</p>
             </div>
-            <div className="col-12 col-lg-6">
+            <div className="col-12 col-lg-6 text-center">
               <Image className="img-fluid" src={heroImage} alt='hero.png' />
             </div>
           </div>
