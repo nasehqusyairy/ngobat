@@ -14,7 +14,7 @@ function Home() {
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg bg-light fixed-top" style={{ minHeight: '75px' }}>
         <div className="container">
-          <Link className="navbar-brand" href="#beranda"><Image src={logo} alt='logo' /></Link>
+          <a className="navbar-brand" href="#beranda"><Image src={logo} alt='logo' /></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
